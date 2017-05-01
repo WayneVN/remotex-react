@@ -17,7 +17,25 @@ export default class Navbar extends Component {
     this.props.checkLogin()
   }
 
-  render () {
+  render() {
+    return (
+      <header className="r-header-warp">
+        <div className="r-header-title">
+          <h1>RemoteX&nbsp;快乐工作&nbsp;认真生活</h1>
+        </div>
+        <div className="r-header-sub">
+          <h2>
+            <span className="r-title">
+              RemoteX&nbsp;远程工作空间
+            </span>
+            是一个开发远程/众包/外包信息聚合平台,我们将需求从不同的平台汇集到这里,非盈利组织运作。欢迎需求方/开发方联系我们。
+          </h2>
+        </div>
+      </header>
+    )
+  }
+
+  renderss () {
     let {
       userData, login, logout, // 通过 connect 获取
       location: { pathname }   // 通过 App 传入

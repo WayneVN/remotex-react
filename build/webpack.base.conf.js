@@ -44,6 +44,7 @@ module.exports = {
       // ================================
       ASSET: path.join(src, 'assets'),
       COMPONENT: path.join(src, 'components'),
+      STYLE: path.join(src, 'styles'),
       ACTION: path.join(src, 'redux/actions'),
       REDUCER: path.join(src, 'redux/reducers'),
       STORE: path.join(src, 'redux/store'),
